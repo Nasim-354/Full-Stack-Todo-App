@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
-
+  
   const handleLogout = () => {
     logout();
     navigate('/login');
