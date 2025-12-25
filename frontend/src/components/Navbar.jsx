@@ -29,7 +29,7 @@ const Navbar = () => {
                 My Tasks
               </Link>
               <div className="navbar-user">
-                <span className="user-name">👋 {user.name}</span>
+                <span className="user-name">👋{user.name}</span>
                 <button onClick={handleLogout} className="btn btn-logout">
                   Logout
                 </button>
